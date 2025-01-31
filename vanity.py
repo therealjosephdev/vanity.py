@@ -147,7 +147,7 @@ def signal_handler(sig, frame):
 if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(
-        description="Vanity-Sol - Generate Vanity Solana Wallet addresses."
+        description="Vanity.py - Generate Vanity Solana Wallet addresses."
     )
     parser.add_argument(
         "--vanity-text",
